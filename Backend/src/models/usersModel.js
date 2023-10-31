@@ -24,4 +24,6 @@ const Usuario =  connection.define('users', {
 
 Usuario.sync();
 
-module.exports = Usuario
+module.exports = {
+    Usuario
+}
